@@ -274,25 +274,32 @@ nav ul li{
 /*CONSEJOS*/
 
 .contenido-consejos{
-	margin-top:30px;
+
+	width: 700px;
+	display: block;
+	margin: 30px auto;
 	text-align: center;
 }
 .contenido-consejos img{
 	display: block;
-	margin: 0 auto;
-	width: 650px;
+
+	float: left;
+	width: 300px;
+	height: 400px;
+
 
 
 }
 .contenido-consejos span{
-	width: 650px;
+	width: 300px;
+
 	font-family: 'GothamBlack', sans-serif;
 	text-align: justify;
 	display: block;
-	margin: 0 auto;
+	float: left;
 	word-wrap: break-word;
 	font-size: 0.9em;
-	padding: 5px 0 ;
+	padding: 0 10px ;
 	
 }
 
