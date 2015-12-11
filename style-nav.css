@@ -48,6 +48,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*FUENTES*/
+
+@font-face {
+  font-family: 'GothamBlack';
+  src: url('fonts/GothamBlack.eot?#iefix') format('embedded-opentype'),  url('fonts/GothamBlack.woff') format('woff'), url('fonts/GothamBlack.ttf')  format('truetype'), url('fonts/GothamBlack.svg#GothamBlack') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'GothamRounded-Bold';
+  src: url('fonts/GothamRounded-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/GothamRounded-Bold.otf')  format('opentype'),
+	     url('fonts/GothamRounded-Bold.woff') format('woff'), url('fonts/GothamRounded-Bold.ttf')  format('truetype'), url('fonts/GothamRounded-Bold.svg#GothamRounded-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 .header-wrap{
 	text-align: center;
 	background: url("assets/bg-header.png");
@@ -71,7 +92,7 @@ nav ul{
 nav ul li{
 	display: inline-block;
 	padding: 15px 30px;
-	font-family: sans-serif;
+	font-family: 'GothamRounded-Bold', sans-serif;
 	color: #FFFFFF;
 	font-size: .9em;
 }
@@ -135,7 +156,7 @@ nav ul li{
 	
 	}
 .botones span{
-	font-family: sans-serif;
+	font-family: 'GothamRounded-Bold', sans-serif;
 	height: 24px;
 	float: left;
 	margin: 0 8px;
@@ -164,7 +185,7 @@ nav ul li{
 }
 .contenido-nosotros span{
 	width: 650px;
-	font-family: sans-serif;
+	font-family: 'GothamBlack', sans-serif;
 	text-align: justify;
 	display: block;
 	margin: 0 auto;
@@ -206,12 +227,13 @@ nav ul li{
 	box-sizing:border-box;
 }
 .detalle h1{
-	font-family: sans-serif;
+	font-family: 'GothamRounded-Bold', sans-serif;
 	font-size: 1.5em;
 	margin: 10px 0;
 }
 .texto{
-	font-family: sans-serif;
+	font-family: 'GothamBlack',sans-serif;
+	font-weight: lighter;
 	font-size: 1em;
 	margin: 50px 0;
 	
@@ -220,6 +242,8 @@ nav ul li{
 }
 .precio{
 	display: block;
+	font-family: 'GothamBlack',sans-serif;
+
 }
 .thumbs{
 	width: 100%;
@@ -247,6 +271,31 @@ nav ul li{
 	float: left;
 }
 
+/*CONSEJOS*/
+
+.contenido-consejos{
+	margin-top:30px;
+	text-align: center;
+}
+.contenido-consejos img{
+	display: block;
+	margin: 0 auto;
+	width: 650px;
+
+
+}
+.contenido-consejos span{
+	width: 650px;
+	font-family: 'GothamBlack', sans-serif;
+	text-align: justify;
+	display: block;
+	margin: 0 auto;
+	word-wrap: break-word;
+	font-size: 0.9em;
+	padding: 5px 0 ;
+	
+}
+
 /*CONTACTO*/
 
 .contenido-contacto{
@@ -271,3 +320,5 @@ nav ul li{
 	padding: 5px 0 ;
 	
 }
+
+
