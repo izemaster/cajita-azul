@@ -54,10 +54,12 @@ table {
 	background-size: contain;
 	background-position: center center;
 	background-repeat: no-repeat;
+	position: relative;
 }
 .header-wrap img{
 	height: 100px;
 	display: inline-block;
+	margin: 25px 0 15px 0;
 }
 nav{
 	display: block;
@@ -86,20 +88,20 @@ nav ul li{
 
 .slider img{
 	float: right;
-	height: 500px;
+	height: 480px;
 	margin-right: 80px;
 }
 .descripcion{
 	font-family: sans-serif;
 	font-size: 0.8em;
 	position: absolute;
-	bottom:250px;
+	bottom:300px;
 	left: 40px;
 
 }
 .selectores{
 	position: absolute;
-	bottom: 200px;
+	bottom: 250px;
 	left: 40px;
 }
 
@@ -125,4 +127,147 @@ nav ul li{
 	display: inline-block;
 	border: 1px solid black;
 	margin: 0 5px; 
+}
+.botones img{
+	height: 24px;
+	display: inline-block;
+	margin: 0 8px;
+	
+	}
+.botones span{
+	font-family: sans-serif;
+	height: 24px;
+	float: left;
+	margin: 0 8px;
+	line-height: 24px;
+	display: inline-block;
+}
+.botones{
+	position: absolute;
+	top: 10px;
+	right: 50px;
+
+}
+
+/*NOSOTROS*/
+
+.contenido-nosotros{
+	margin-top:30px;
+	text-align: center;
+}
+.contenido-nosotros img{
+	display: block;
+	margin: 0 auto;
+	width: 650px;
+
+
+}
+.contenido-nosotros span{
+	width: 650px;
+	font-family: sans-serif;
+	text-align: justify;
+	display: block;
+	margin: 0 auto;
+	word-wrap: break-word;
+	font-size: 0.9em;
+	padding: 5px 0 ;
+	
+}
+
+/*TIENDA*/
+.contenido-tienda{
+	width: 600px;
+	display:block;
+	margin: 10px auto;
+	text-align: center;
+}
+.contenido-tienda img{
+	width: 150px;
+	margin: 5px;
+	display: inline-block;
+}
+
+/*PRODUCTO*/
+.contenido-producto{
+	width: 700px;
+	display: block;
+	margin: 0 auto;
+}
+.contenido-producto .foto{
+	width: 350px;
+	padding: 20px;
+	box-sizing:border-box;
+	float: left;
+}
+.detalle{
+	width: 350px;
+	float: left;
+	padding: 30px;
+	box-sizing:border-box;
+}
+.detalle h1{
+	font-family: sans-serif;
+	font-size: 1.5em;
+	margin: 10px 0;
+}
+.texto{
+	font-family: sans-serif;
+	font-size: 1em;
+	margin: 50px 0;
+	
+	float: left;
+
+}
+.precio{
+	display: block;
+}
+.thumbs{
+	width: 100%;
+	overflow: auto;
+	margin: 20px 0;
+	text-align: center;
+}
+.thumbs img{
+	width: 80px;
+	display: block;
+	float: left;
+	margin: 2px;
+}
+.related{
+	margin: 5px 15px;
+	width: 700px;
+	float: left;
+	text-align: center;
+
+}
+.related img{
+	width: 110px;
+	margin: 0 8px;
+	
+	float: left;
+}
+
+/*CONTACTO*/
+
+.contenido-contacto{
+	margin-top:30px;
+	text-align: center;
+}
+.contenido-contacto img{
+	display: block;
+	margin: 0 auto;
+	width: 850px;
+
+
+}
+.contenido-contacto span{
+	width: 700px;
+	font-family: sans-serif;
+	text-align: justify;
+	display: block;
+	margin: 0 auto;
+	word-wrap: break-word;
+	font-size: 0.9em;
+	padding: 5px 0 ;
+	
 }
